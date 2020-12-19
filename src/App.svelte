@@ -9,6 +9,6 @@
 <div class="App">
 	<header class="App-header">
 		<Tailwind />
-		<div class="shadow-md">Hello {name}</div>
+		<div class="shadow-md">HUST SHARE</div>
 	</header>
 </div>

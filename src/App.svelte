@@ -1,15 +1,14 @@
-<script lang='typescript'>
-	let name: string = 'World';
-  </script>
-  
-  <style>
-  </style>
-  
-  <div class="App">
+<script lang="typescript">
+	let name: string = "World";
+	import Tailwind from "./tailwind.svelte";
+</script>
+
+<style>
+</style>
+
+<div class="App">
 	<header class="App-header">
-	  <p>
-		  Hello {name}
-	  </p>
+		<Tailwind />
+		<div class="shadow-md">Hello {name}</div>
 	</header>
-  </div>
-  
+</div>
